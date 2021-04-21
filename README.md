@@ -1,4 +1,5 @@
 # HackerRank-solutions
-My solutions for some of the HackerRank problems
-
-*I provide both full code and the solution code which can be uploded to HackerRank. For the problems with locked code at HackerRank just use the *-solution.java
+Solutions for some of the HackerRank problems:
+- All solutions pass 100% of test cases;
+- In most cases i provide full code to solve the problem;
+- In cases when HackerRank problem has locked code i additionally provide "Problem-name-solution.java" file which has only the delta needed to solve the problem, it is safe to upload it to Hacker Rank.
