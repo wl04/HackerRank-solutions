@@ -1,3 +1,4 @@
+        // Solution
         boolean needToCheck = true;
         
         while (needToCheck) {
