@@ -11,6 +11,8 @@ class Solution{
             s[i]=sc.next();
         }
       	sc.close();
+        
+        // Solution
         boolean needToCheck = true;
         
         while (needToCheck) {
