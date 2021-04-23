@@ -83,7 +83,7 @@ public class Solution
         Collections.sort(studentList);
         //Or we can use Comparator interface
         //Comparator cgpaComp = new CgpaComparator();
-        //Collections.sort(studentList);
+        //Collections.sort(studentList, cgpaComp);
       
       	for(Student st: studentList){
 			System.out.println(st.getFname());
