@@ -1,5 +1,6 @@
 import java.util.*;
 
+//Solution
 class Checker implements Comparator<Player> {
     @Override
     public int compare(Player o1, Player o2) {
@@ -13,7 +14,6 @@ class Checker implements Comparator<Player> {
         }
     } 
 }
-// Write your Checker class here
 
 class Player{
     String name;
