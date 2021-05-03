@@ -9,7 +9,7 @@ class Solution{
 		while (sc.hasNext()) {
 			String input=sc.next();
             if (input.isEmpty()) {
-                System.out.println("true"); // Always true if we have epmpty string   
+                System.out.println("true"); // Always true if we have empty string   
             }
             else {
                 for (int i = 0; i < input.length(); i++) {
