@@ -3,11 +3,6 @@
         SinglyLinkedListNode currentNode = head;
         SinglyLinkedListNode runner = head;
         
-        // Special case
-        if (positionFromTail == 0) {
-            return head.data;
-        }
-        
         // Move runner pointer first
         for (int i = 0; i < positionFromTail; i++) {
             runner = runner.next;
