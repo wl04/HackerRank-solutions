@@ -26,7 +26,7 @@ class Solution {
      
     }
     
-  // Solution
+  	// Solution
 	public static Node insert(Node root,int data) {
         // If the tree is empty return a new node
         if (root == null) {
