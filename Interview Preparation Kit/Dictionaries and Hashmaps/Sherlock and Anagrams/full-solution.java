@@ -15,6 +15,7 @@ class Result {
     // Solution
     public static int sherlockAndAnagrams(String s) {
         List<String> subStrLst = new ArrayList<>();
+        int count = 0;
         
         // Getting all substrings of s adding them to List 
         for (int i = 0; i < s.length(); i++) {
@@ -27,15 +28,17 @@ class Result {
                 if (!subStr.equals(s)){
                     subStrLst.add(subStr);
                 } 
-            }   
+            }
         }
-        System.out.println(subStrLst);
+               
+        //System.out.println(subStrLst);
         
         // Counting anagrams
-        int count = 0;
         for (int i = 0; i < subStrLst.size(); i++) {
             for (int j = i; j < subStrLst.size(); j++) {
-                if ((i != j) && isAnagram(subStrLst.get(i), subStrLst.get(j))) {
+                // Different length = not anagrams
+                if ((i != j) && subStrLst.get(i).length() == subStrLst.get(j).length()
+                && isAnagram(subStrLst.get(i), subStrLst.get(j))) {
                     count += 1;       
                 }
             }
